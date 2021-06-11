@@ -9,7 +9,7 @@ import seaborn as sns
 
 #%%
 
-engine = create_engine('mysql+pymysql://alex:Bibibevil06!@localhost:3306/netflix')
+engine = create_engine('mysql+pymysql://alex:mot_de_passe@localhost:3306/netflix')
 connection = engine.connect()
 
 TMPL_DIR = "template"
